@@ -17,7 +17,7 @@ const usuarios = [{
     salario_real: 1000.01,
     vip: false,
     perfil_id: 2,
-    status: 'ATIVO'
+    status: 'ATIVO2'
 }, {
     id: proximoId(),
     nome: 'Nome testinho',

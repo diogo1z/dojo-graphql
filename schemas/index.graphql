@@ -1,5 +1,6 @@
 #import Query from 'query.graphql'
+#import Usuario from 'usuario.graphql'
+#import Mutation from 'mutation.graphql'
 
 scalar Date
 # Pontos de entrada da api
-

@@ -1,7 +1,11 @@
-const { perfis, usuarios } = require('../data/arrays');
+const { assertNullableType } = require('graphql');
+const { perfis,usuarios }  = require('../data/arrays');
 
 module.exports = {
     teste(){
-        return "Teste";
+        return new Date();
+    },
+    usuarios(){
+        return usuarios;
     }
 }
